@@ -1,0 +1,16 @@
+<div class="row operation-radio-button">
+<div class="btn-group btn-group-toggle">
+    <label class="btn btn-secondary" [ngClass]="{'active': selectedOption === 'add'}" (click)="selectOption('add')">
+    <input type="radio" name="options" id="add" autocomplete="off"> Add
+    </label>
+    <label class="btn btn-secondary" [ngClass]="{'active': selectedOption === 'subtract'}" (click)="selectOption('subtract')">
+    <input type="radio" name="options" id="subtract" autocomplete="off"> Subtract
+    </label>
+    <label class="btn btn-secondary" [ngClass]="{'active': selectedOption === 'multiply'}" (click)="selectOption('multiply')">
+    <input type="radio" name="options" id="multiply" autocomplete="off"> Multiply
+    </label>
+    <label class="btn btn-secondary" [ngClass]="{'active': selectedOption === 'divide'}" (click)="selectOption('divide')">
+    <input type="radio" name="options" id="divide" autocomplete="off"> Divide
+    </label>
+</div>
+</div>

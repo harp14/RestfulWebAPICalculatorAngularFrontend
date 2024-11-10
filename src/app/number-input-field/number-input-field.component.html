@@ -1,0 +1,11 @@
+<div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">{{inputFieldTitle}}</span>
+    </div>
+    <input
+        type="number"
+        class="form-control"
+        [(ngModel)]="fieldValue"
+        (ngModelChange)="valueChanged()"
+    >
+</div>

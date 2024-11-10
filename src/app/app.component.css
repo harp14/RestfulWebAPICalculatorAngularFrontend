@@ -1,0 +1,26 @@
+h1, h2, p {
+    color: white;
+}
+
+.api-description-row {
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.input-group {
+    margin-top: 1em;
+}
+
+.number-input-fields {
+    justify-content: center;
+}
+
+.operation-radio-buttons {
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.result-text {
+    justify-content: center;
+    margin-top: 3em;
+}

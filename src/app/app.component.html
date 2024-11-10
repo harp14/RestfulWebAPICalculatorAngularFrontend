@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="text-center mt-5">
+    <h1>{{title}}</h1>
+  </div>
+  <div class="row api-description-row">
+    <p>The following values are being transmitted over HTTP to a RESTful API, which calculates and returns the result.</p>
+  </div>
+  <div class="row number-input-fields">
+    <div class="col-md-4">
+      <app-number-input-field
+        [inputFieldTitle]="'First number:'"
+        [fieldName]="'firstNumber'"
+        (numberEntered)="onValueChanged($event)">
+      </app-number-input-field>
+    </div>
+    <div class="col-md-4">
+      <app-number-input-field
+        [inputFieldTitle]="'Second number:'"
+        [fieldName]="'secondNumber'"
+        (numberEntered)="onValueChanged($event)">
+      </app-number-input-field>
+    </div>
+  </div>
+  <div class="row operation-radio-buttons">
+    <app-operation-radio-button
+      (optionSelected)="onOptionSelected($event)">
+    </app-operation-radio-button>
+  </div>
+  <div class="row result-text">
+    <h2>The result is: {{calculationResult}}</h2>
+  </div>
+
+</div>
