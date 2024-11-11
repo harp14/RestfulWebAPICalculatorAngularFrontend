@@ -1,5 +1,19 @@
-h1, h2, p {
+h1 {
     color: white;
+    font-family: "Doto", sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    color: white;
+    font-family: "Doto", sans-serif;
+    font-size: 3em;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 200;
 }
 
 .api-description-row {
